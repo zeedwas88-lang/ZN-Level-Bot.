@@ -1,0 +1,20 @@
+{
+  "name": "zn-level-bot",
+  "version": "1.0.0",
+  "description": "Professional Discord Level System",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^2.4.0",
+    "discord.js": "^14.21.0",
+    "dotenv": "^16.4.7",
+    "better-sqlite3": "^11.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
+  }
+}
